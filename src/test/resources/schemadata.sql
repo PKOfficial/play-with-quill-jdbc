@@ -1,2 +1,2 @@
-INSERT INTO employee (1, "Prabhat Kashyap", 1);
-INSERT INTO designation (1, "Software Consultant");
+INSERT INTO employee VALUES (1, 'Prabhat Kashyap', 23, 1);
+INSERT INTO designation VALUES (1, 'Software Consultant');

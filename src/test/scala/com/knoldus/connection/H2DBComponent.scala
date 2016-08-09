@@ -2,11 +2,9 @@ package com.knoldus.connection
 
 import io.getquill._//{H2Dialect, JdbcContext, SnakeCase}
 
-class H2DBComponent extends DBComponent{
+trait H2DBComponent {
 
-//  val ctx = new  JdbcContextConfig("ctx")
+  val ctx = new JdbcContext[H2Dialect, SnakeCase]("ctx")
 
 }
-
-object H2DBComponent extends H2DBComponent
 
